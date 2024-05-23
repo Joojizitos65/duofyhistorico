@@ -1,0 +1,23 @@
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+.produto{
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+}
+.mainPedidoH{
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+}
+.produto img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.mainPedidoH img{
+    
+}

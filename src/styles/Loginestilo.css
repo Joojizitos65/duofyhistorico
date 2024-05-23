@@ -1,0 +1,90 @@
+
+body{
+    background-color: linear-gradient(90deg, #05161A, #0A5862, #0C7179, #0F989C);     
+}
+.Lognin{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 15% 0 0 0;
+    
+    
+  }
+.Emailtxt{
+    width: 300px;
+    height: 40px; 
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #D9D9D9;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.Emailinput{
+    width: 90%; 
+    height: 20px; 
+    border: none; 
+    background-color: transparent; 
+    outline: none; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px; 
+    margin: 0; 
+    padding: 5px 10px; 
+    border-radius: 10px;
+}
+.Senhatxt{
+    width: 300px;
+    height: 40px; 
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #D9D9D9; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.Senhainput{
+    width: 90%; 
+    height: 20px; 
+    border: none; 
+    background-color: transparent; 
+    outline: none; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px; 
+    margin: 0; 
+    padding: 5px 10px; 
+    border-radius: 10px;
+}
+.Botaoentrar{
+    background-color: #4CAF50; 
+    color: white;
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border: none; 
+    border-radius: 20px; 
+    transition-duration: 0.4s; 
+}
+.Botaoentrar:hover {
+    background-color: #45a049; 
+}
